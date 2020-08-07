@@ -1,6 +1,9 @@
 import React from 'react';
+
 import {Grid} from './styles';
+
 import ServerList from '../ServerList';
+import ServerName from '../ServerName';
 
 //CommonJS
 // export default function Layout(){ 
@@ -14,6 +17,7 @@ const Layout: React.FC = () => {
     return (
         <Grid>
             <ServerList />
+            <ServerName />
         </Grid>
     );
 }
